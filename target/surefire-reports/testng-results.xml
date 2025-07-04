@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-04T14:16:25 IST" name="RestAssuredProject" finished-at="2025-07-04T14:16:41 IST" duration-ms="16486">
+    <groups>
+    </groups>
+    <test started-at="2025-07-04T14:16:25 IST" name="LoginAPITest" finished-at="2025-07-04T14:16:41 IST" duration-ms="16486">
+      <class name="com.api.test.LoginAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.test.LoginAPITest@6283d8b8]" started-at="2025-07-04T14:16:25 IST" name="setUp" finished-at="2025-07-04T14:16:25 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyRequestBody()[pri:0, instance:com.api.test.LoginAPITest@6283d8b8]" started-at="2025-07-04T14:16:25 IST" name="testEmptyRequestBody" description="Negative Test - Empty request body" finished-at="2025-07-04T14:16:30 IST" duration-ms="4204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyRequestBody -->
+        <test-method signature="testInvalidEmailFormat()[pri:0, instance:com.api.test.LoginAPITest@6283d8b8]" started-at="2025-07-04T14:16:30 IST" name="testInvalidEmailFormat" description="Negative Test - Invalid email format" finished-at="2025-07-04T14:16:32 IST" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method signature="testMissingEmail()[pri:0, instance:com.api.test.LoginAPITest@6283d8b8]" started-at="2025-07-04T14:16:32 IST" name="testMissingEmail" description="Negative Test - Missing email" finished-at="2025-07-04T14:16:33 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingEmail -->
+        <test-method signature="testMissingPassword()[pri:0, instance:com.api.test.LoginAPITest@6283d8b8]" started-at="2025-07-04T14:16:33 IST" name="testMissingPassword" description="Negative Test - Missing password" finished-at="2025-07-04T14:16:36 IST" duration-ms="2440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingPassword -->
+        <test-method signature="testResponseTime()[pri:0, instance:com.api.test.LoginAPITest@6283d8b8]" started-at="2025-07-04T14:16:36 IST" name="testResponseTime" description="Performance Test - Response time validation" finished-at="2025-07-04T14:16:37 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testValidLogin()[pri:0, instance:com.api.test.LoginAPITest@6283d8b8]" started-at="2025-07-04T14:16:37 IST" name="testValidLogin" description="Positive Test - Valid login credentials" finished-at="2025-07-04T14:16:39 IST" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method signature="testWrongCredentials()[pri:0, instance:com.api.test.LoginAPITest@6283d8b8]" started-at="2025-07-04T14:16:39 IST" name="testWrongCredentials" description="Negative Test - Wrong credentials" finished-at="2025-07-04T14:16:40 IST" duration-ms="1190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongCredentials -->
+        <test-method signature="testWrongHttpMethod()[pri:0, instance:com.api.test.LoginAPITest@6283d8b8]" started-at="2025-07-04T14:16:40 IST" name="testWrongHttpMethod" description="Negative Test - Using GET method instead of POST" finished-at="2025-07-04T14:16:41 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongHttpMethod -->
+      </class> <!-- com.api.test.LoginAPITest -->
+    </test> <!-- LoginAPITest -->
+  </suite> <!-- RestAssuredProject -->
+</testng-results>
